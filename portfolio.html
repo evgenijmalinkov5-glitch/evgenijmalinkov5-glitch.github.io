@@ -4,12 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Portfolio - FolioOne Bootstrap Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>Portfolio – Jevgenij Malinkov</title>
+  <meta name="description" content="MATLAB laboratory work graphs (2D and 3D plots, signal filtering, surfaces) by Jevgenij Malinkov.">
+  <meta name="keywords" content="Jevgenij Malinkov, information systems engineering, Vilnius Tech, web development, C++, MATLAB, portfolio">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/knight-j-2-solid.svg" rel="icon" type="image/svg+xml">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
@@ -26,6 +26,7 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/custom.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: FolioOne
@@ -41,11 +42,6 @@
   <header id="header" class="header d-flex align-items-center light-background sticky-top">
     <div class="container position-relative d-flex align-items-center justify-content-between">
 
-      <!-- <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-      <img src="assets/img/logo.webp" alt="">
-      <h1 class="sitename">FolioOne</h1> 
-    </a> -->
-
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -59,10 +55,7 @@
       </nav>
 
       <div class="header-social-links">
-        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/evgenijmalinkov5-glitch" class="github" target="_blank" rel="noopener" aria-label="GitHub profile"><i class="bi bi-github"></i></a>
       </div>
 
     </div>
@@ -76,7 +69,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Portfolio</h2>
-        <p></p>
+        <p>Graphs from my MATLAB laboratory work: 2D plots, signal processing and 3D surfaces.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -84,115 +77,119 @@
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-strategy">Laboratory Work 3</li>
-            <li data-filter=".filter-finance">Laboratory Work 4</li>
+            <li data-filter=".filter-lab3">Lab 3 – 2D graphs</li>
+            <li data-filter=".filter-lab4">Lab 4 – 3D graphs</li>
           </ul><!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-strategy">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-lab3">
               <div class="portfolio-card">
                 <div class="portfolio-img">
-                  <img src="assets/img/portfolio/lab3_1.png" alt="Portfolio Item" class="img-fluid">
+                  <img src="assets/img/portfolio/lab3_1.png" alt="Plot of y(t) = sin(t) – MATLAB graph" class="img-fluid" width="460" height="273">
                   <div class="portfolio-overlay">
-                    <a href="assets/img/portfolio/lab3_1.png" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                    <a href="#" class="portfolio-details-link"><i class="bi bi-link"></i></a>
+                    <a href="assets/img/portfolio/lab3_1.png" class="glightbox portfolio-lightbox" data-gallery="portfolio" data-title="Plot of y(t) = sin(t)" data-description="A 2D line plot of one period of the sine function on [-π, π], drawn as a red dashed line with a legend, title, axis labels and grid." aria-label="Enlarge: Plot of y(t) = sin(t)"><i class="bi bi-plus"></i></a>
                   </div>
                 </div>
                 <div class="portfolio-info">
-                  <h4>Laboratory Work 3</h4>
-                  <p>Dvimatis grafiku vaizdavimas</p>
-                  <div>
-                  </div>
+                  <h4>Plot of y(t) = sin(t)</h4>
+                  <p>A 2D line plot of one period of the sine function on [-π, π], drawn as a red dashed line with a legend, title, axis labels and grid.</p>
+                  <div class="portfolio-tags"><span>MATLAB</span><span>2D plot</span></div>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-strategy">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-lab3">
               <div class="portfolio-card">
                 <div class="portfolio-img">
-                  <img src="assets/img/portfolio/lab3_2.png" alt="Portfolio Item" class="img-fluid">
+                  <img src="assets/img/portfolio/lab3_15.png" alt="Two functions in one plot – MATLAB graph" class="img-fluid" width="456" height="285">
                   <div class="portfolio-overlay">
-                    <a href="assets/img/portfolio/lab3_2.png" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                    <a href="#" class="portfolio-details-link"><i class="bi bi-link"></i></a>
+                    <a href="assets/img/portfolio/lab3_15.png" class="glightbox portfolio-lightbox" data-gallery="portfolio" data-title="Two functions in one plot" data-description="The parabola y = -x² + 9 (blue) and the cubic y = x³ - 2x² - 9 (green) on the same axes, compared with a legend and a grid." aria-label="Enlarge: Two functions in one plot"><i class="bi bi-plus"></i></a>
                   </div>
                 </div>
                 <div class="portfolio-info">
-                  <h4>Laboratory Work 3</h4>
-                  <p>Specializuotu grafiku kurimas</p>
-                  <div >
-                  </div>
+                  <h4>Two functions in one plot</h4>
+                  <p>The parabola y = -x² + 9 (blue) and the cubic y = x³ - 2x² - 9 (green) on the same axes, compared with a legend and a grid.</p>
+                  <div class="portfolio-tags"><span>MATLAB</span><span>plot</span><span>hold on</span></div>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-strategy">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-lab3">
               <div class="portfolio-card">
                 <div class="portfolio-img">
-                  <img src="assets/img/portfolio/lab3_3.png" alt="Portfolio Item" class="img-fluid">
+                  <img src="assets/img/portfolio/lab3_2.png" alt="Bar and stem charts of lab results – MATLAB graph" class="img-fluid" width="447" height="252">
                   <div class="portfolio-overlay">
-                    <a href="assets/img/portfolio/lab3_3.png" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                    <a href="#" class="portfolio-details-link"><i class="bi bi-link"></i></a>
+                    <a href="assets/img/portfolio/lab3_2.png" class="glightbox portfolio-lightbox" data-gallery="portfolio" data-title="Bar and stem charts of lab results" data-description="a) Grouped bar chart of six students' marks in four lab works. b) Stem chart of each student's average mark." aria-label="Enlarge: Bar and stem charts of lab results"><i class="bi bi-plus"></i></a>
                   </div>
                 </div>
                 <div class="portfolio-info">
-                  <h4>Laboratory Work 3</h4>
-                  <p>Rezultatu grafinis 2D atvaizdavimas </p>
-                  <div>
-                  </div>
+                  <h4>Bar and stem charts of lab results</h4>
+                  <p>a) Grouped bar chart of six students' marks in four lab works. b) Stem chart of each student's average mark.</p>
+                  <div class="portfolio-tags"><span>MATLAB</span><span>bar</span><span>stem</span><span>subplot</span></div>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-finance">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-lab3">
               <div class="portfolio-card">
                 <div class="portfolio-img">
-                  <img src="assets/img/portfolio/lab4_1.png" alt="Portfolio Item" class="img-fluid">
+                  <img src="assets/img/portfolio/lab3_3.png" alt="Signal filtering with thresholds – MATLAB graph" class="img-fluid" width="454" height="275">
                   <div class="portfolio-overlay">
-                    <a href="assets/img/portfolio/lab4_1.png" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                    <a href="#" class="portfolio-details-link"><i class="bi bi-link"></i></a>
+                    <a href="assets/img/portfolio/lab3_3.png" class="glightbox portfolio-lightbox" data-gallery="portfolio" data-title="Signal filtering with thresholds" data-description="A noisy voltage signal, filtered with threshold U2 and compared with U1. Below, the values above U1 with the minimum and maximum marked." aria-label="Enlarge: Signal filtering with thresholds"><i class="bi bi-plus"></i></a>
                   </div>
                 </div>
                 <div class="portfolio-info">
-                  <h4>Laboratory Work 4</h4>
-                  <p>Rezultatu grafinis 3D atvaizdavimas</p>
-                  <div>
-                  </div>
+                  <h4>Signal filtering with thresholds</h4>
+                  <p>A noisy voltage signal, filtered with threshold U2 and compared with U1. Below, the values above U1 with the minimum and maximum marked.</p>
+                  <div class="portfolio-tags"><span>MATLAB</span><span>signal</span><span>subplot</span></div>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-finance">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-lab4">
               <div class="portfolio-card">
                 <div class="portfolio-img">
-                  <img src="assets/img/portfolio/lab4_2.png" alt="Portfolio Item" class="img-fluid">
+                  <img src="assets/img/portfolio/lab4_1.png" alt="Surface z = e^(r²) – MATLAB graph" class="img-fluid" width="436" height="274">
                   <div class="portfolio-overlay">
-                    <a href="assets/img/portfolio/lab4_2.png" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                    <a href="#" class="portfolio-details-link"><i class="bi bi-link"></i></a>
+                    <a href="assets/img/portfolio/lab4_1.png" class="glightbox portfolio-lightbox" data-gallery="portfolio" data-title="Surface z = e^(r²)" data-description="3D surface of z = e^(r²), r = √(x² + y²), with the bone colormap, interpolated shading, rotation and a colorbar." aria-label="Enlarge: Surface z = e^(r²)"><i class="bi bi-plus"></i></a>
                   </div>
                 </div>
                 <div class="portfolio-info">
-                  <h4>Laboratory Work 4</h4>
-                  <p>Rezultatu grafinis 3D atvaizdavimas</p>
-                  <div>
-                  </div>
+                  <h4>Surface z = e^(r²)</h4>
+                  <p>3D surface of z = e^(r²), r = √(x² + y²), with the bone colormap, interpolated shading, rotation and a colorbar.</p>
+                  <div class="portfolio-tags"><span>MATLAB</span><span>3D surface</span><span>colorbar</span></div>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-finance">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-lab4">
               <div class="portfolio-card">
                 <div class="portfolio-img">
-                  <img src="assets/img/portfolio/lab4_3.png" alt="Portfolio Item" class="img-fluid">
+                  <img src="assets/img/portfolio/lab4_2.png" alt="Paraboloid f(x, y) = 1 - 2x² - 3y² – MATLAB graph" class="img-fluid" width="430" height="274">
                   <div class="portfolio-overlay">
-                    <a href="assets/img/portfolio/lab4_3.png" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                    <a href="#" class="portfolio-details-link"><i class="bi bi-link"></i></a>
+                    <a href="assets/img/portfolio/lab4_2.png" class="glightbox portfolio-lightbox" data-gallery="portfolio" data-title="Paraboloid f(x, y) = 1 - 2x² - 3y²" data-description="3D surface of a two-variable function over x ∈ [-2, 1], y ∈ [-2, 1] with the cool colormap and faceted shading." aria-label="Enlarge: Paraboloid f(x, y) = 1 - 2x² - 3y²"><i class="bi bi-plus"></i></a>
                   </div>
                 </div>
                 <div class="portfolio-info">
-                  <h4>Laboratory Work 4</h4>
-                  <p>Funkcijos shading savybes</p>
-                  <div >
+                  <h4>Paraboloid f(x, y) = 1 - 2x² - 3y²</h4>
+                  <p>3D surface of a two-variable function over x ∈ [-2, 1], y ∈ [-2, 1] with the cool colormap and faceted shading.</p>
+                  <div class="portfolio-tags"><span>MATLAB</span><span>3D surface</span><span>meshgrid</span></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-lab4">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/portfolio/lab4_3.png" alt="Shading modes compared – MATLAB graph" class="img-fluid" width="394" height="270">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/portfolio/lab4_3.png" class="glightbox portfolio-lightbox" data-gallery="portfolio" data-title="Shading modes compared" data-description="The same surface z = 1 - (x² + y²) drawn three times with faceted, flat and interp shading to show how each mode looks." aria-label="Enlarge: Shading modes compared"><i class="bi bi-plus"></i></a>
                   </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Shading modes compared</h4>
+                  <p>The same surface z = 1 - (x² + y²) drawn three times with faceted, flat and interp shading to show how each mode looks.</p>
+                  <div class="portfolio-tags"><span>MATLAB</span><span>shading</span><span>subplot</span></div>
                 </div>
               </div>
             </div>
@@ -200,9 +197,6 @@
 
         </div>
 
-        <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="400">
-          <a href="#portfolio" class="btn btn-primary">View All Case Studies</a>
-        </div>
 
       </div>
 
@@ -214,13 +208,10 @@
 
     <div class="container">
       <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">FolioOne</strong> <span>All Rights Reserved<br></span></p>
+        <p>© <span>2026</span> <strong class="px-1 sitename">Jevgenij Malinkov</strong> <span>All Rights Reserved<br></span></p>
       </div>
       <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/evgenijmalinkov5-glitch" target="_blank" rel="noopener" aria-label="GitHub profile"><i class="bi bi-github"></i></a>
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
@@ -234,7 +225,7 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center" aria-label="Back to top"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
